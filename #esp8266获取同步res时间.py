@@ -32,7 +32,7 @@ def laffeynetwork():
     wlan.active(True)  # activate the interface
     wlan.scan()  # scan for access points
     wlan.isconnected()  # check if the station is connected to an AP
-    wlan.connect('TP-LINK_1852', 'zh18041602806')  # connect to an AP
+    wlan.connect('', '')  # connect to an AP
     wlan.config('mac')  # get the interface's MAC address
     wlan.ifconfig()  # get the interface's IP/netmask/gw/DNS addresses
 
